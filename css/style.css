@@ -162,5 +162,9 @@ footer{
     padding: 15px;
 }
 
-
+.logos-footer{
+    justify-content: baseline;
+    width: 25px;
+    height: 20px;
+}
 
