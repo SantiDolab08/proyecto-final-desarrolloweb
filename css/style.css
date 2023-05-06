@@ -1,16 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: #FF6E31;
+a {
+  text-decoration: none;
+  color: #FF6E31;
 }
 
-ul, ol{ 
-    list-style-type: none;
+ul, ol {
+  list-style-type: none;
 }
 
 /* ============COLORES==========
@@ -19,152 +19,137 @@ NARANJA= #FF6E31
 BEIGE= #FFEBB7
 MARRONCITO= #AD8E70
 */
-
-body{
-    background-color: #243763;
+body {
+  background-color: #243763;
 }
 
 /* ---------- HEADER -------------- */
-
-
 header {
-    padding: 15px; 
-    padding-right: 50px;
-    padding-left: 50px; 
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: #FFEBB7;
-    margin: 0;
-    margin-bottom: 8vh;
-    color: #FF6E31;
-    font-size: 1.5em;
+  padding: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #FFEBB7;
+  margin: 0;
+  margin-bottom: 8vh;
+  color: #FF6E31;
+  font-size: 1.5em;
 }
 
-@media (min-width: 768px){
-    header{
-        margin-left: 8vh;
-        margin-right: 8vh;
-        border-radius: 20px;
-    }       
+@media (min-width: 768px) {
+  header {
+    margin-left: 8vh;
+    margin-right: 8vh;
+    border-radius: 20px;
+  }
 }
-
-@media (min-width: 1200px){
-    header{
-        margin-left: 15vh;
-        margin-right: 15vh;
-    }       
+@media (min-width: 1200px) {
+  header {
+    margin-left: 15vh;
+    margin-right: 15vh;
+  }
 }
-
-
-.atajos-list{
-    display: flex;
-    gap: 20px;
+.atajos-list {
+  display: flex;
+  gap: 20px;
 }
-
 
 /* =============== MAIN ========== */
-
 /* ========INDEX============== */
-
-.portada-index{
-    background-color: #243763;
-    
+.portada-index {
+  background-color: #243763;
 }
 
-
-
 /* ==============PRODUCTOS=========== */
-.div-contenerdor-productos{
-    justify-content: space-evenly;
-    gap: 3vh;
+.div-contenerdor-productos {
+  justify-content: space-evenly;
+  gap: 3vh;
 }
 
 .div-productos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vh;
 }
 
-.img-productos{
-    width: 35vh;
-    height: 35vh;
+.img-productos {
+  width: 35vh;
+  height: 35vh;
 }
 
-.tarjetas-productos{
-    border: black solid 2px;
-    margin: 2px;
-    padding: 0.5em;
-    border-radius: 20px;
-    font-weight: 600;
-    color: #FF6E31;
-    background-color: #FFEBB7;
+.tarjetas-productos {
+  border: black solid 2px;
+  margin: 2px;
+  padding: 0.5em;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #FF6E31;
+  background-color: #FFEBB7;
 }
 
-.btn-compras{
-    background-color: #243763;
-    padding: 0.5em 1em;
-    font-size: 1.2rem;
-    border: 2px solid #FF6E31;
-    border-radius: 20px;
-    color: #FF6E31;
+.btn-compras {
+  background-color: #243763;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  border: 2px solid #FF6E31;
+  border-radius: 20px;
+  color: #FF6E31;
 }
 
-.btn-compras:hover{
-    background-color: #FF6E31;
-    color: #243763;
-    border:2px solid #243763;
-    transform: scale(1.1);
+.btn-compras:hover {
+  background-color: #FF6E31;
+  color: #243763;
+  border: 2px solid #243763;
+  transform: scale(1.1);
 }
+
 /* ============================== FOOTER =============== */
-
-footer{
-    margin-top: 6vh;
-    font-size: 0.7em;
-    background-color: #FFEBB7;
-    color: #FF6E31;
-    
+footer {
+  margin-top: 6vh;
+  font-size: 0.7em;
+  background-color: #FFEBB7;
+  color: #FF6E31;
 }
 
-@media (min-width: 768px){
-    footer{
-        margin-left: 8vh;
-        margin-right: 8vh;
-        margin-top: 8vh;
-        font-size: 1em;
-        border-radius: 20px;
-    }       
+@media (min-width: 768px) {
+  footer {
+    margin-left: 8vh;
+    margin-right: 8vh;
+    margin-top: 8vh;
+    font-size: 1em;
+    border-radius: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    margin-left: 15vh;
+    margin-right: 15vh;
+  }
+}
+.section-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-weight: 900;
+  margin: 0;
+  color: #FF6E31;
+  padding-top: 15px;
 }
 
-
-@media (min-width: 1200px){
-    footer{
-        margin-left: 15vh;
-        margin-right: 15vh;
-    }       
+.footer-savra-home-deco {
+  border: 1px solid #FF6E31;
+  gap: 20px;
+  padding: 15px;
 }
 
-.section-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    font-weight: 900;
-    margin: 0;
-    color: #FF6E31;
-    padding-top: 15px;
+.logos-footer {
+  justify-content: baseline;
+  width: 25px;
+  height: 20px;
 }
 
-.footer-savra-home-deco{
-    border: 1px solid #FF6E31;
-    gap: 20px;
-    padding: 15px;
-}
-
-.logos-footer{
-    justify-content: baseline;
-    width: 25px;
-    height: 20px;
-}
-
+/*# sourceMappingURL=style.css.map */
