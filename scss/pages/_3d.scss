@@ -1,0 +1,24 @@
+.div-contenerdor-productos{
+    display: grid;
+    margin-left: 12vh;
+    margin-right: 12vh;
+    justify-items: center;
+}
+
+.div-productos{
+    min-width: 300px;
+}
+
+@media (min-width: 768px){
+    .div-contenerdor-productos{
+        grid-template-columns: 2fr 2fr;
+    }
+ }
+
+@media (min-width: 1200px){
+    .div-contenerdor-productos{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+}
+
+    
