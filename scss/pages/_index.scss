@@ -1,0 +1,28 @@
+
+.portada-index{
+    color: #FF6E31;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    text-align: center;
+    
+}
+
+.header-index{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nosotros-portada-index{
+    background-color: #FFEBB7;
+    grid-column: 2;
+    height: 60vh;
+    text-align: center;
+}
+
+
+@media (min-width: 768px){
+    .nosotros-portada-index{
+        padding: 10vh;
+    }
+}
