@@ -1,0 +1,50 @@
+.div-contenerdor-productos-ceramica{
+    display: grid;
+    margin-left: 12vh;
+    margin-right: 12vh;
+    justify-items: center;
+    justify-content: space-evenly;
+    gap: 3vh;
+}
+
+
+@media (min-width: 768px){
+    .div-contenerdor-productos-ceramica{
+        grid-template-columns: 2fr 2fr;
+    }
+ }
+
+@media (min-width: 1200px){
+    .div-contenerdor-productos-ceramica{
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+}
+
+
+.div-productos-ceramica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vh;
+    min-width: 300px;
+}
+
+.img-productos-ceramica{
+    width: 35vh;
+    height: 35vh;
+}
+
+.tarjetas-productos-ceramica{
+    border: black solid 2px;
+    margin: 2px;
+    padding: 0.5em;
+    border-radius: 20px;
+    font-weight: 600;
+    color: $verde;
+    background-color: $gris;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

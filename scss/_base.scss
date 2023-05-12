@@ -1,8 +1,8 @@
 /* ============COLORES==========*/
 
 $azul: #243763;
-$naranja: #FF6E31;
-$beige: #FFEBB7;
+$verde: #10403B;
+$gris:#BFBFBF;
 
 
 *{
@@ -13,7 +13,7 @@ $beige: #FFEBB7;
 
 a{
     text-decoration: none;
-    color: $naranja;
+    color: $verde;
 }
 
 ul, ol{ 
@@ -35,11 +35,11 @@ header {
     padding-left: 50px; 
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    background-color: $beige;
+    align-items: center;
+    background-color: $gris;
     margin: 0;
     margin-bottom: 8vh;
-    color: $naranja;
+    color: $verde;
     font-size: 1.5em;
 }
 
@@ -61,10 +61,6 @@ header {
 }
 
 
-.atajos-list{
-    display: flex;
-    gap: 20px;
-}
 
 .logo-savra{
     height: 70px;
@@ -77,15 +73,12 @@ header {
     background-color: $azul;
     padding: 0.5em 1em;
     font-size: 1.2rem;
-    border: 2px solid $naranja;
     border-radius: 20px;
-    color: $naranja;
+    color: $gris;
 
 
     &:hover{
-        background-color: $naranja;
-        color: $azul;
-        border:2px solid $azul;
+        background-color: $verde;
         transform: scale(1.1);
     }
 }
@@ -96,8 +89,8 @@ header {
 footer{
     margin-top: 6vh;
     font-size: 0.7em;
-    background-color: $beige;
-    color: $naranja;
+    background-color: $gris;
+    color: $verde;
     
 }
 
@@ -123,15 +116,15 @@ footer{
 .section-footer{
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
     font-weight: 900;
     margin: 0;
-    color: $naranja;
+    color: $verde;
     padding-top: 15px;
 }
 
 .footer-savra-home-deco{
-    border: 1px solid $naranja;
+    border: 1px solid $verde;
     gap: 20px;
     padding: 15px;
 }

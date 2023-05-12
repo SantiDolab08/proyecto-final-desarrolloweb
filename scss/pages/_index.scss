@@ -1,6 +1,6 @@
 
 .portada-index{
-    color: #FF6E31;
+    color: $verde;
     font-size: 25px;
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
@@ -14,7 +14,7 @@
 }
 
 .nosotros-portada-index{
-    background-color: #FFEBB7;
+    background-color: $gris;
     grid-column: 2;
     height: 60vh;
     text-align: center;
