@@ -1,0 +1,132 @@
+.header-contactos{
+    display: grid;
+    grid-template-columns: 1fr 70px 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (min-width: 768px){
+    .header-contactos{
+        display: flex;
+    }
+}
+
+
+.logo-savra-contacto{
+    grid-column: 2;
+    height: 70px;
+    height: 70px;
+}
+
+.titulo-contacto{
+    grid-row: 2;
+    padding: 5px;
+}
+
+.lista-contacto{
+    grid-column: 3;
+    grid-row: 2;
+    padding: 5px;
+}
+
+.section-contacto{
+    display: grid;
+    margin-left: 20px;
+    margin-bottom: 2vh;
+    color: $naranja;
+    gap: 20px;
+
+}
+
+
+@media (min-width: 768px){
+    .section-contacto{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 8vh;
+        margin-right: 8vh;
+    }       
+    .div-mail{
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .direccion{
+        grid-row: 5;
+        grid-column: 1;        
+    }
+    .mapa{
+        grid-row: 6 ;
+        grid-column: span 2;
+    }
+    .img-contacto-2{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .vista-mapa{
+        width: 350px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 1200px){
+    .section-contacto{
+        margin-left: 15vh;
+        margin-right: 15vh;
+    }  
+    .vista-mapa{
+        width: 500px;
+        height: 200px;
+    }     
+}
+
+
+.form-contacto{
+    display: grid;
+    gap: 20px;
+}
+
+.logo-wpp-insta-contacto{
+    width: 35px;
+    height: 35px;
+}
+
+.modoos-contacto{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-mail-contacto{
+    width: 40px;
+    height: 35px;
+}
+
+.direccion{
+    display: flex;
+    align-items: baseline;
+}
+
+.mapa{
+    display: grid;
+    justify-content: center;
+}
+
+.div-img{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.img-contacto{
+    display: none;
+    height: 150px;
+    width: 150px;
+}
+
+@media (min-width: 768px){
+    .img-contacto{
+        display: block;
+    }     
+}
