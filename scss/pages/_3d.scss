@@ -1,24 +1,47 @@
-.div-contenerdor-productos{
+.div-contenerdor-productos-3d{
     display: grid;
     margin-left: 12vh;
     margin-right: 12vh;
     justify-items: center;
+    justify-content: space-evenly;
+    gap: 3vh;
 }
 
-.div-productos{
-    min-width: 300px;
-}
 
 @media (min-width: 768px){
-    .div-contenerdor-productos{
+    .div-contenerdor-productos-3d{
         grid-template-columns: 2fr 2fr;
     }
  }
 
 @media (min-width: 1200px){
-    .div-contenerdor-productos{
+    .div-contenerdor-productos-3d{
         grid-template-columns: 2fr 2fr 2fr;
     }
 }
 
-    
+
+.div-productos-3d {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vh;
+    min-width: 300px;
+}
+
+.img-productos-3d{
+    width: 35vh;
+    height: 35vh;
+}
+
+.tarjetas-productos-3d{
+    border: black solid 2px;
+    margin: 2px;
+    padding: 0.5em;
+    border-radius: 20px;
+    font-weight: 600;
+    color: $naranja;
+    background-color: $beige;
+}
+
