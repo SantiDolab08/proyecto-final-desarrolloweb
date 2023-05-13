@@ -30,7 +30,6 @@ header {
   margin: 0;
   margin-bottom: 8vh;
   color: #10403B;
-  font-size: 1.5em;
 }
 
 @media (min-width: 768px) {
@@ -38,14 +37,14 @@ header {
     margin-left: 8vh;
     margin-right: 8vh;
     border-radius: 20px;
-    font-size: 1.7em;
+    font-size: 1.2em;
   }
 }
 @media (min-width: 1200px) {
   header {
     margin-left: 15vh;
     margin-right: 15vh;
-    font-size: 2em;
+    font-size: 1.4em;
   }
 }
 .logo-savra {
@@ -365,21 +364,17 @@ footer {
   align-items: center;
   gap: 2vh;
   min-width: 300px;
-}
-
-.img-productos-ceramica {
-  width: 35vh;
-  height: 35vh;
+  min-height: 200px;
 }
 
 .tarjetas-productos-ceramica {
-  border: black solid 2px;
+  border: #BFBFBF solid 2px;
   margin: 2px;
   padding: 0.5em;
-  border-radius: 20px;
+  border-radius: 100px;
   font-weight: 600;
+  font-size: 1.3em;
   color: #10403B;
-  background-color: #BFBFBF;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -426,6 +421,90 @@ footer {
   font-weight: 600;
   color: #10403B;
   background-color: #BFBFBF;
+}
+
+.contenedor-productos {
+  display: grid;
+  justify-content: center;
+  color: #10403B;
+  margin-left: 12vh;
+  margin-right: 12vh;
+  gap: 50px;
+}
+
+.tarjetas-productos-tejidos {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  justify-items: center;
+  text-align: center;
+  background-color: #BFBFBF;
+  gap: 5px;
+  padding: 5px;
+}
+
+.titulo-tejido {
+  grid-column: span 2;
+}
+
+.img-tejidos {
+  grid-column: span 2;
+  grid-row: 2;
+  height: 35vh;
+  width: 35vh;
+}
+
+.p-tejido {
+  grid-column: span 2;
+  grid-row: 3;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.precio-tejido {
+  grid-column: span 2;
+  grid-row: 4;
+}
+
+.btn-tejido {
+  grid-column: span 2;
+  grid-row: 5;
+}
+
+@media (min-width: 768px) {
+  .tarjetas-productos-tejidos {
+    grid-template-columns: 300px 300px;
+    font-size: 1.2em;
+  }
+  .titulo-tejido {
+    grid-column: span 2;
+  }
+  .img-tejidos {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .p-tejido {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+  }
+  .precio-tejido {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .btn-tejido {
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+@media (min-width: 1200px) {
+  .tarjetas-productos-tejidos {
+    grid-template-columns: 350px 350px;
+    font-size: 1.4em;
+  }
+  .img-tejidos {
+    height: 40vh;
+    width: 40vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

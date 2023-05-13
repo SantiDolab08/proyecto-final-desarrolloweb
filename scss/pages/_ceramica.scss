@@ -28,21 +28,18 @@
     align-items: center;
     gap: 2vh;
     min-width: 300px;
+    min-height: 200px;
 }
 
-.img-productos-ceramica{
-    width: 35vh;
-    height: 35vh;
-}
 
 .tarjetas-productos-ceramica{
-    border: black solid 2px;
+    border: $gris solid 2px;
     margin: 2px;
     padding: 0.5em;
-    border-radius: 20px;
+    border-radius: 100px;
     font-weight: 600;
+    font-size: 1.3em;
     color: $verde;
-    background-color: $gris;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
