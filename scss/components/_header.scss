@@ -1,0 +1,40 @@
+
+/* ---------- HEADER -------------- */
+
+header {
+    padding: 15px; 
+    padding-right: 50px;
+    padding-left: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $gris;
+    margin: 0;
+    margin-bottom: 8vh;
+    color: $verde;
+    
+}
+
+@media (min-width: 768px){
+    header{
+        margin-left: 8vh;
+        margin-right: 8vh;
+        border-radius: 20px;
+        font-size: 1.2em;
+    }       
+}
+
+@media (min-width: 1200px){
+    header{
+        margin-left: 15vh;
+        margin-right: 15vh;
+        font-size: 1.4em;
+    }       
+}
+
+
+
+.logo-savra{
+    height: 70px;
+    width: 80px;
+}

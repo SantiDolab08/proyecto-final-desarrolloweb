@@ -1,36 +1,3 @@
-.header-contactos{
-    display: grid;
-    grid-template-columns: 1fr 70px 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-    text-align: center;
-}
-
-
-@media (min-width: 768px){
-    .header-contactos{
-        display: flex;
-    }
-}
-
-
-.logo-savra-contacto{
-    grid-column: 2;
-    height: 70px;
-    height: 70px;
-}
-
-.titulo-contacto{
-    grid-row: 2;
-    padding: 5px;
-}
-
-.lista-contacto{
-    grid-column: 3;
-    grid-row: 2;
-    padding: 5px;
-}
-
 .section-contacto{
     display: grid;
     margin-left: 20px;
@@ -91,7 +58,7 @@
     height: 35px;
 }
 
-.modoos-contacto{
+.modos-contacto{
     display: grid;
     grid-template-columns: 45px 1fr;
     gap: 10px;

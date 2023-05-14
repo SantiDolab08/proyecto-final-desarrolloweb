@@ -58,6 +58,7 @@
     font-weight: 600;
     color: $verde;
     background-color: $gris;
+    height: 500px;
 }
 
 @media (min-width: 768px){
@@ -86,7 +87,7 @@
 
 
 @media (min-width: 768px) and (max-width: 1199px){
-    .div-ceramica{
+    .div-3d{
         grid-column: span 2;
         grid-row: 2;
     }

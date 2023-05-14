@@ -1,0 +1,15 @@
+// ======== btn ==========
+
+.btn-compras{
+    background-color: $azul;
+    padding: 0.5em 1em;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: $gris;
+
+
+    &:hover{
+        background-color: $verde;
+        transform: scale(1.1);
+    }
+}

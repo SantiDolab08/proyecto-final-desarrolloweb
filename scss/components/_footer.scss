@@ -1,0 +1,51 @@
+/* ============================== FOOTER =============== */
+
+footer{
+    margin-top: 6vh;
+    font-size: 0.7em;
+    background-color: $gris;
+    color: $verde;
+    
+}
+
+@media (min-width: 768px){
+    footer{
+        margin-left: 8vh;
+        margin-right: 8vh;
+        margin-top: 8vh;
+        font-size: .8em;
+        border-radius: 20px;
+    }       
+}
+
+
+@media (min-width: 1200px){
+    footer{
+        margin-left: 15vh;
+        margin-right: 15vh;
+        font-size: 1em;
+    }       
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    margin: 0;
+    color: $verde;
+    padding-top: 15px;
+}
+
+.footer-savra-home-deco{
+    border: 1px solid $verde;
+    gap: 20px;
+    padding: 15px;
+}
+
+.logos-footer{
+    justify-content: baseline;
+    width: 25px;
+    height: 20px;
+}
+

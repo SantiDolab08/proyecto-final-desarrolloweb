@@ -9,7 +9,7 @@
 
 .tarjetas-productos-tejidos{
     display: grid;
-    grid-template-columns: 150px 150px ;
+    grid-template-columns: 200px 200px ;
     justify-items: center;
     text-align: center;
     background-color: $gris;
@@ -31,14 +31,10 @@
 .p-tejido{
     grid-column: span 2;
     grid-row: 3;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.precio-tejido{
-    grid-column: span 2;
-    grid-row: 4;
-}
 
 .btn-tejido{
     grid-column: span 2;
@@ -65,17 +61,12 @@
     .p-tejido{
         grid-column: 2;
         grid-row: 2;
-        align-self: center;
-        
-    }
-    
-    .precio-tejido{
-        grid-column: 2;
-        grid-row: 3;
+        text-align: left;
+        align-self: center;        
     }
     
     .btn-tejido{
-        grid-column: 1;
+        grid-column: span 2;
         grid-row: 3;
     }
     

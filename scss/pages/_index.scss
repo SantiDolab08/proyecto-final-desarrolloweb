@@ -16,13 +16,29 @@
 .nosotros-portada-index{
     background-color: $gris;
     grid-column: 2;
-    height: 60vh;
+    height: 70vh;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
 @media (min-width: 768px){
     .nosotros-portada-index{
-        padding: 10vh;
+        padding: 5vh;
+    }
+}
+@media (min-width: 800px){
+    .p-index{
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px){
+    .nosotros-portada-index{
+        font-size: 1.2em;
+    }
+    .h2-idex{
+        font-size: 1.2em;
     }
 }
