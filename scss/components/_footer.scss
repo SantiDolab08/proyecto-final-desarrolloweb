@@ -2,10 +2,16 @@
 
 footer{
     margin-top: 6vh;
-    font-size: 0.7em;
+    font-size: 0.5em;
     background-color: $gris;
     color: $verde;
     
+}
+
+@media (min-width: 500px){
+    footer{
+        font-size: 0.7em;
+    }
 }
 
 @media (min-width: 768px){

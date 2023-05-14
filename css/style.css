@@ -55,11 +55,16 @@ header {
 /* ============================== FOOTER =============== */
 footer {
   margin-top: 6vh;
-  font-size: 0.7em;
+  font-size: 0.5em;
   background-color: #BFBFBF;
   color: #10403B;
 }
 
+@media (min-width: 500px) {
+  footer {
+    font-size: 0.7em;
+  }
+}
 @media (min-width: 768px) {
   footer {
     margin-left: 8vh;
@@ -132,6 +137,25 @@ footer {
   padding-right: 30px;
 }
 
+.p-index {
+  font-size: 1em;
+}
+
+@media (max-width: 630px) {
+  .p-index {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 520px) {
+  .p-index {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 630px) {
+  .p-index {
+    font-size: 0.7em;
+  }
+}
 @media (min-width: 768px) {
   .nosotros-portada-index {
     padding: 5vh;
